@@ -1,0 +1,33 @@
+/* ============================================= */
+  /*              Images                           */
+  /* ============================================= */
+.img{
+  margin:20px;
+}
+li{
+  list-style-type: none;
+  margin:2%;
+}
+img:hover{
+  opacity: .5;
+  transition: .9s;
+}
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px){//Tablet & Desktop layout
+  .row{
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+
+
+
